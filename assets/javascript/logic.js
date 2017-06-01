@@ -1,4 +1,4 @@
-var timer = 30
+var timer = 90
 var correct = 0
 var incorrect = 0
 var unanswered = 0
@@ -34,6 +34,8 @@ $("#start").on("click", function() {
 });
 
 function checkAnswers() {
+
+	 
 	$("#pageTimer").html("<br>");
 	
 	$("#trivia").html('<p>All Done!</p><br><p>Correct Answers: ' + correct + '</p><br><p>Incorrect Answers: ' + incorrect + '</p><br><p>Unanswered Questions: ' + unanswered + '</p>');
