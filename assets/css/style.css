@@ -1,0 +1,51 @@
+body {
+	/*background-color: #009688;*/
+		background-image: url(../images/blackPaisley.jpg); 
+		color: #ffffff;
+}
+
+
+form {
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 28px;
+	color: #f7ce1b;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+/* Why won't  border properties work here. I tried
+	border-color: #009688;
+	border: 7px;
+	
+...the border and its color isn't visible
+*/	
+}
+
+
+#pageTimer {
+	font-size: 40px;
+}
+
+#gameBoard {
+	width: 75%;
+	margin: auto;
+	/*background-color: #00bcd4;*/
+	background-image: url(../images/blueBrickWall.jpg);
+	text-align: center;
+	border-top: 100px;
+	min-height: 500px;
+	padding: 50px;
+	
+}
+
+button {
+	color: #ffffff;
+	background-color: #040402;
+	font-family: arial;
+
+}
+
